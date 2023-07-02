@@ -308,7 +308,7 @@ input[type="radio"]{
 
 @media only screen and (max-width: 600px){
     .logo{
-        width: 100px;
+        width: 120px;
     }
 
     nav button{
@@ -377,41 +377,28 @@ input[type="radio"]{
 
 @media only screen and (max-width: 500px){
     .logo{
-        width: 95px;
+        width: 100px;
         margin-left: 5px;
     }
 
-    nav button{
-        padding: 4px 8px; 
-     }
- 
-     nav .language-btn{
-        padding: 3px 6px;
-     }
-
-     .signin-btn{
+    .signin-btn{
         background: #E50914;
         color:#fff;
         border: 1px solid #E50914;
         border-radius: 5px;
     }
  
-     .header-content{
+    .header-content{
         position: unset;
         transform: none;
         padding-top: 10px;
-        margin-top: 30px;
+        margin-top: 60px;
      }
      
      .header-content h1{
-         font-size: 25px;
-         line-height: 40px;
-         font-weight: 550;
-     }
- 
-     .email-signup button{
-         font-size: 12px;
-         padding: 8px 12px;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
      }
 
 }
