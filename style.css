@@ -77,7 +77,7 @@ nav button{
     left: 50%;/*B*/
     transform:translate(-50%,-50%);/*C*/ /*Line A,B,C these three lines are used to bring the object at the center*/
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .header-content h1{
@@ -373,4 +373,37 @@ input[type="radio"]{
     label::after{
         font-size: 22px;
     }
+}
+
+@media only screen and (max-width: 500px){
+    .logo{
+        width: 80px;
+    }
+
+    nav button{
+        padding: 4px 8px; 
+     }
+ 
+     nav .language-btn{
+        padding: 3px 6px;
+     }
+ 
+     .header-content{
+        position: unset;
+        transform: none;
+        padding-top: 10px;
+        margin-top: 30px;
+     }
+     
+     .header-content h1{
+         font-size: 25px;
+         line-height: 40px;
+         font-weight: 550;
+     }
+ 
+     .email-signup button{
+         font-size: 12px;
+         padding: 8px 12px;
+     }
+
 }
