@@ -377,7 +377,8 @@ input[type="radio"]{
 
 @media only screen and (max-width: 500px){
     .logo{
-        width: 80px;
+        width: 95px;
+        margin-left: 5px;
     }
 
     nav button{
@@ -387,6 +388,13 @@ input[type="radio"]{
      nav .language-btn{
         padding: 3px 6px;
      }
+
+     .signin-btn{
+        background: #E50914;
+        color:#fff;
+        border: 1px solid #E50914;
+        border-radius: 5px;
+    }
  
      .header-content{
         position: unset;
