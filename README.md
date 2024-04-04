@@ -1,1 +1,1 @@
-## Deployed using Netlify: https://netflixx-landing-page-clone.netlify.app/
+## Deployed using Netlify: https://aadrikas-project.netlify.app/
