@@ -306,7 +306,7 @@ input[type="radio"]{
 
 /*----------media-queries-for-small-screen----------*/
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 950px){
     .logo{
         width: 120px;
         margin-left: 0%;
@@ -349,6 +349,14 @@ input[type="radio"]{
 
     .features h2{
         font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .features h4{
+        /* font-size: 30px; */
+        display: flex;
+        justify-content: center;
     }
 
     .features p{
@@ -381,7 +389,7 @@ input[type="radio"]{
     }
 }
 
-@media only screen and (max-width: 500px){
+/* @media only screen and (max-width: 500px){
     .logo{
         width: 100px;
         margin-left: 5px;
@@ -406,5 +414,4 @@ input[type="radio"]{
         line-height: 40px;
         font-weight: 600;
      }
-
-}
+} */
